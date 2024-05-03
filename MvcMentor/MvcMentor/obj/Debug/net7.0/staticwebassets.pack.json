@@ -637,6 +637,118 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/manage/assets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/css/style.css",
+      "PackagePath": "staticwebassets/manage/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/img/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/manage/assets/img/testimonial-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/img/testimonial-2.jpg",
+      "PackagePath": "staticwebassets/manage/assets/img/testimonial-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/img/user.jpg",
+      "PackagePath": "staticwebassets/manage/assets/img/user.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/js/main.js",
+      "PackagePath": "staticwebassets/manage/assets/js/main.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/chart/chart.min.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/chart/chart.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets/manage/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/tempusdominus/js/moment-timezone.min.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/tempusdominus/js/moment-timezone.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/tempusdominus/js/moment.min.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/tempusdominus/js/moment.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/waypoints/links.php",
+      "PackagePath": "staticwebassets/manage/assets/lib/waypoints/links.php"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/wwwroot/manage/assets/lib/waypoints/waypoints.min.js",
+      "PackagePath": "staticwebassets/manage/assets/lib/waypoints/waypoints.min.js"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.MvcMentor.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -1,0 +1,70 @@
+﻿@model Card
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Pricings</h1>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            Create Pricing
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <form class="user" asp-action="create" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input asp-for="Name" class="form-control" id="Name>
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input asp-for="Price" class="form-control" id="price>
+                    <span class="text-danger" asp-validation-for="price"></span>
+                </div>
+                <div class="form-group">
+                    <label for="button">Button</label>
+                    <input asp-for="Button" class="form-control" id="button>
+                    <span class="text-danger" asp-validation-for="button"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Name">ButtonUrl</label>
+                    <input asp-for="ButtonUrl" class="form-control" id="Name>
+                    <span class="text-danger" asp-validation-for="buttonurl"></span>
+                </div>
+                <div class="form-group">
+                    <label for="TagIds">FeatureInts</label>
+                    <select asp-for="FeatureInts" class="form-control" id="TagIds" asp-items="@(new SelectList(ViewBag.Features,nameof(Feature.Id),nameof(Feature.Name)))">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" asp-for="IsAdvance" id="IsNew">
+                                <label class="form-check-label" for="IsNew">
+                                    IsAdvance
+                                </label>
+                                <span class="text-danger" asp-validation-for="IsAdvance"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check col-md-4">
+                                <input class="form-check-input" asp-for="IsFeature" id="IsFeatured">
+                                <label class="form-check-label" for="IsFeatured">
+                                    IsFeature
+                                </label>
+                                <span class="text-danger" asp-validation-for="IsFeature"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <button class="btn btn-primary" type="submit">
+                    Create Book
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

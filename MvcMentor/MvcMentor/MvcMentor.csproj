@@ -16,6 +16,14 @@
     <None Remove="Data\" />
     <None Remove="ViewModels\" />
     <None Remove="Views\Pricing\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Manage\" />
+    <None Remove="Areas\Manage\Controllers\" />
+    <None Remove="Areas\Manage\Models\" />
+    <None Remove="Areas\Manage\Views\" />
+    <None Remove="Areas\Manage\Views\Dashboard\" />
+    <None Remove="Areas\Manage\Views\Shared\" />
+    <None Remove="Areas\Manage\Views\Pricing\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -25,6 +33,17 @@
     <Folder Include="Data\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\Pricing\" />
+    <Folder Include="wwwroot\manage\" />
+    <Folder Include="wwwroot\manage\assets\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Manage\" />
+    <Folder Include="Areas\Manage\Controllers\" />
+    <Folder Include="Areas\Manage\Models\" />
+    <Folder Include="Areas\Manage\Views\" />
+    <Folder Include="Areas\Manage\Views\Dashboard\" />
+    <Folder Include="Areas\Manage\Views\Shared\" />
+    <Folder Include="wwwroot\manage\assets\lib\" />
+    <Folder Include="Areas\Manage\Views\Pricing\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.18" />
@@ -33,5 +52,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\manage\" />
+    <Content Remove="wwwroot\manage\assets\" />
+    <Content Remove="wwwroot\manage\assets\lib\" />
   </ItemGroup>
 </Project>

@@ -16,6 +16,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Areas/Manage/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Areas/Manage/Views/Pricing/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlL1ZpZXdzL1ByaWNpbmcvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Areas/Manage/Views/Pricing/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlL1ZpZXdzL1ByaWNpbmcvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Areas/Manage/Views/Pricing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlL1ZpZXdzL1ByaWNpbmcvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Areas/Manage/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlL1ZpZXdzL1NoYXJlZC9fTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Areas/Manage/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Areas/Manage/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlL1ZpZXdzL19WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/elmar/Desktop/CodeAcademy/MVC/MvcMentor/MvcMentor/MvcMentor/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

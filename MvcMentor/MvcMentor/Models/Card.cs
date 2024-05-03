@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace MvcMentor.Models
 {
 	public class Card
@@ -17,7 +18,10 @@ namespace MvcMentor.Models
 
 		public bool IsFeature { get; set; }
 
-		public List<CardFeature> CardFeatures { get; set; }
+		public List<CardFeature>? CardFeatures { get; set; }
+
+		[NotMapped]
+		public List<int>? FeatureInts { get; set; }= new List<int>();
 
 	}
 
