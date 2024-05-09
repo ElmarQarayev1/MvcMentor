@@ -1,9 +1,14 @@
 ﻿<Properties StartupConfiguration="{312D8EF7-5130-4E80-A8CC-936BFE117B0A}|https">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.MvcMentor PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMentor/Areas/Manage/Views/Dashboard/Index.cshtml">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMentor/Areas/Manage/Controllers/AccountController.cs">
     <Files>
-      <File FileName="MvcMentor/Program.cs" />
+      <File FileName="MvcMentor/Program.cs" Line="23" Column="1" />
       <File FileName="MvcMentor/Views/Home/Index.cshtml" />
       <File FileName="MvcMentor/Controllers/HomeController.cs" />
       <File FileName="MvcMentor/Views/_ViewStart.cshtml" />
@@ -23,12 +28,21 @@
       <File FileName="MvcMentor/Migrations/20240426162940_ddd.cs" />
       <File FileName="MvcMentor/Migrations/20240426153259_CardFeatureTablesRelationsCreated.cs" />
       <File FileName="MvcMentor/Migrations/AppDbContextModelSnapshot.cs" />
-      <File FileName="MvcMentor/Areas/Manage/Views/Shared/_Layout.cshtml" Line="18" Column="1" />
+      <File FileName="MvcMentor/Areas/Manage/Views/Shared/_Layout.cshtml" />
       <File FileName="MvcMentor/Areas/Manage/Views/_ViewStart.cshtml" />
       <File FileName="MvcMentor/Areas/Manage/Controllers/DashboardController.cs" />
-      <File FileName="MvcMentor/Areas/Manage/Views/Dashboard/Index.cshtml" Line="18" Column="20" />
       <File FileName="MvcMentor/Areas/Manage/Views/_ViewImports.cshtml" />
       <File FileName="MvcMentor/Views/Shared/_Layout.cshtml" />
+      <File FileName="MvcMentor/Areas/Manage/Controllers/PricingController.cs" />
+      <File FileName="MvcMentor/Areas/Manage/Views/Pricing/Index.cshtml" />
+      <File FileName="MvcMentor/Areas/Manage/Views/Pricing/Create.cshtml" />
+      <File FileName="MvcMentor/Areas/Manage/Views/Pricing/Edit.cshtml" />
+      <File FileName="MvcMentor/Areas/Manage/Views/Dashboard/Index.cshtml" />
+      <File FileName="MvcMentor/Areas/Manage/Controllers/AccountController.cs" Line="27" Column="15" />
+      <File FileName="MvcMentor/Areas/Manage/ViewModels/AdminLoginViewModel.cs" Line="17" Column="2" />
+      <File FileName="MvcMentor/Data/AppDbContext.cs" Line="25" Column="2" />
+      <File FileName="MvcMentor/Models/AppUser.cs" Line="1" Column="1" />
+      <File FileName="MvcMentor/Areas/Manage/Views/Account/Login.cshtml" Line="24" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -37,23 +51,17 @@
             <Node name="MvcMentor">
               <Node name="Areas" expanded="True">
                 <Node name="Manage" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewModels" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Dashboard" expanded="True">
-                      <Node name="Index.cshtml" selected="True" />
-                    </Node>
-                    <Node name="Shared" expanded="True" />
+                    <Node name="Account" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Pricing" expanded="True" />
-                <Node name="Shared" expanded="True" />
-                <Node name="Trainers" expanded="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="manage" expanded="True">
-                  <Node name="assets" expanded="True" />
-                  <Node name="lib" expanded="True" />
+                  <Node name="assetsl" expanded="True" selected="True" />
                 </Node>
               </Node>
               <Node name="appsettings.json" expanded="True" />
@@ -63,9 +71,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

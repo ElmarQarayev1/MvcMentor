@@ -24,6 +24,8 @@
     <None Remove="Areas\Manage\Views\Dashboard\" />
     <None Remove="Areas\Manage\Views\Shared\" />
     <None Remove="Areas\Manage\Views\Pricing\" />
+    <None Remove="Areas\Manage\ViewModels\" />
+    <None Remove="Areas\Manage\Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -44,6 +46,9 @@
     <Folder Include="Areas\Manage\Views\Shared\" />
     <Folder Include="wwwroot\manage\assets\lib\" />
     <Folder Include="Areas\Manage\Views\Pricing\" />
+    <Folder Include="Areas\Manage\ViewModels\" />
+    <Folder Include="Areas\Manage\Views\Account\" />
+    <Folder Include="wwwroot\manage\assetsl\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.18" />
@@ -52,10 +57,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.18" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\manage\" />
     <Content Remove="wwwroot\manage\assets\" />
     <Content Remove="wwwroot\manage\assets\lib\" />
+    <Content Remove="wwwroot\manage\assetsl\" />
   </ItemGroup>
 </Project>

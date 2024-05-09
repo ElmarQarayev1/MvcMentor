@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,7 @@ using MvcMentor.Models;
 
 namespace MvcMentor.Areas.Manage.Controllers
 {
+    [Authorize]
     [Area("manage")]
 	public class PricingController:Controller
 	{

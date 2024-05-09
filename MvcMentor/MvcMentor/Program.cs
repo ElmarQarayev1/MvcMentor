@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using MvcMentor.Data;
+using MvcMentor.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,12 @@ builder.Services.AddDbContext<AppDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
+builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
+{
+    option.Password.RequireNonAlphanumeric = false;
+    option.Password.RequireUppercase = false;
+    option.Password.RequiredLength = 8;
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,6 +33,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthorization();
 app.UseAuthorization();
 
 app.MapControllerRoute(
