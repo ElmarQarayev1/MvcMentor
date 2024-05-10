@@ -109,7 +109,15 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="btn-getstarted" href="courses.html">Get Started</a>
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <a class="btn-getstarted" asp-action="login" asp-controller="account">Login</a>
+                <a class="btn-getstarted" asp-action="register" asp-controller="account">Register</a>
+            }
+            else
+            {
+                <a class="btn-getstarted" asp-action="logout" asp-controller="account">Logout</a>
+            }
 
         </div>
     </header>

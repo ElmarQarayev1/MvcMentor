@@ -26,6 +26,7 @@
     <None Remove="Areas\Manage\Views\Pricing\" />
     <None Remove="Areas\Manage\ViewModels\" />
     <None Remove="Areas\Manage\Views\Account\" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -49,6 +50,7 @@
     <Folder Include="Areas\Manage\ViewModels\" />
     <Folder Include="Areas\Manage\Views\Account\" />
     <Folder Include="wwwroot\manage\assetsl\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.18" />

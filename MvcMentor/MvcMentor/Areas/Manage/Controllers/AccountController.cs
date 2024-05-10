@@ -11,11 +11,12 @@ namespace MvcMentor.Areas.Manage.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager,RoleManager<IdentityRole> roleManager)
         {
             _signInManager = signInManager;
+            _roleManager = roleManager;
             _userManager = userManager;
 
         }
@@ -29,10 +30,15 @@ namespace MvcMentor.Areas.Manage.Controllers
 
             return Json(result);
         }
+        public async Task<IActionResult> CreateRoles()
+        {
+            await _roleManager.CreateAsync(new IdentityRole("admin"));
+            await _roleManager.CreateAsync(new IdentityRole("member"));
+            return Ok();
+        }
         public IActionResult Login()
         {
             return View();
-
         }
         [HttpPost]
         public async Task<IActionResult> Login(AdminLoginViewModel admin)
